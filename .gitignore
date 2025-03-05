@@ -1,4 +1,4 @@
-# Avoid accidental upload of the Sketch and Figma design files
+# Avoid accidental upload of Sketch and Figma design files
 #####################################################
 ## Please do not remove lines 5 and 6 - thanks! 🙂 ##
 #####################################################
@@ -11,6 +11,21 @@
 ###############################################
 *.xd
 
-# Avoid your project being littered with annoying .DS_Store files!
+# Prevent macOS system files from being committed
 .DS_Store
+.AppleDouble
+.LSOverride
+
+# Prevent Windows system files from being committed
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Ignore Prettier configuration exceptions
 .prettierignore
+
+# Avoid log files and temporary files
+*.log
+*.tmp
+*.lock
+*.bak
